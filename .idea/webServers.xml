@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="565bb111-9a0a-4507-ab2f-812b41eabfb9" name="Pranker" url="http://ftp73.hostland.ru">
+        <fileTransfer host="ftp73.hostland.ru" port="21" rootFolder="/host1728001.hostland.pro/htdocs/www">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="ec2656cc-c422-4dc0-973a-50664754bb47" name="FTLapp" url="http://ftp73.hostland.ru">
+        <fileTransfer host="ftp73.hostland.ru" port="21" rootFolder="/host1728258.hostland.pro/htdocs/www">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
